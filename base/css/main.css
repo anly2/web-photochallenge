@@ -1,0 +1,432 @@
+ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, img{margin: 0; padding: 0; list-style-type: none; border: 0; text-decoration: none;}
+ body{
+	font-family: Verdana;
+	font-size: 20px;
+	background-color: #8b8b8b;
+	color: #fff;
+ }
+ 
+ .clear{
+	clear: both;
+ }
+/*------------------------------------------------------------------------------ */
+ 
+ #header{
+	width: 100%;
+	height: 140px;
+	background-color: #505e36;
+ }
+ 
+ #headerSub{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid red;
+ }
+ 
+ #headerSub img{
+	width: 210px;
+	height: 210px;
+ }
+ 
+ #headerSub #userDet{
+	float: right;
+ }
+ 
+ #headerSub #userDet #userDetSub{
+	width: 250px;
+	background-color: #fff;
+ }
+ 
+ #headerSub #userDet #userDetSub img{
+	width: 128px;
+	height: 128px;
+	float: left;
+ }
+ 
+ #headerSub #userDet #userDetSub ul{
+	float: right;
+	width: 120px;
+ }
+ 
+ #headerSub #userDet #userDetSub ul li{
+	
+ }
+ 
+ #headerSub #userDet #userDetSub ul li a{
+	color: #000;
+	font-size: 14px;
+ }
+ 
+ #headerSub #mainMenu{
+	float: right;
+	/*width: 600px;*/
+	position: relative;
+	top: -100px;
+ }
+ 
+ #headerSub #mainMenu li{
+	float: left;
+	margin: 0 0 0 20px;
+ }
+ 
+ #headerSub #mainMenu li a{
+	color: #fff;
+	font-size: 17px;
+ }
+ 
+ #container{
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+ }
+ 
+ #container #logreg a{
+	width: 300px;
+	display: block;
+	margin: 20px auto 0 auto;
+	height: 50px;
+	background-color: lightblue;
+	text-align: center;
+	line-height: 50px;
+ }
+ 
+ #container #chalsNew #challengeNew{
+	width: 45%;
+	float: left;
+	background-color: #505e36;
+ }
+ 
+ #container #chalsNew #challengeNew h3{
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 15px;
+ }
+ 
+ #container #chalsNew #challengeNew .aTwoOthers{
+	text-align: right;
+	width: 300px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ccc;
+	text-decoration: underline;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #challengeNew #challFocus img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #challengeNew #challFocus h4{
+	font-weight: normal;
+	font-size: 12px;
+	font-style: italic;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #challengeNew #challFocus p{
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 20px; 
+	padding: 0 15px 0 0; 
+ }
+ 
+ #container #chalsNew #challengeNew #challFocus p a{
+	color: #ccc;
+	text-decoration: underline;
+	text-align: right;
+ }
+ 
+ #container #chalsNew #challengeNew #otherChalls{
+	clear: both;
+ }
+ 
+ #container #chalsNew #challengeNew #otherChalls img{
+	width: 80px;
+	height: 80px;
+	margin: 7px;
+	clear: both;
+ }
+ 
+ #container #chalsNew #pictureNew{
+	width: 45%;
+	float: right;
+	background-color: #505e36;
+ }
+ 
+ #container #chalsNew #pictureNew h3{
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 15px;
+ }
+ 
+ #container #chalsNew #pictureNew .aTwoOthers{
+	text-align: right;
+	width: 300px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ccc;
+	text-decoration: underline;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #pictureNew #picFocus img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #pictureNew #picFocus h4{
+	font-weight: normal;
+	font-size: 12px;
+	font-style: italic;
+	padding: 7px;
+ }
+ 
+ #container #chalsNew #pictureNew #picFocus p{
+	font-weight: normal;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 20px; 
+	padding: 0 15px 0 0; 
+ }
+ 
+ #container #chalsNew #pictureNew #picFocus p a{
+	color: #ccc;
+	text-decoration: underline;
+	text-align: right;
+ }
+ 
+ #container #chalsNew #pictureNew #otherPics{
+	clear: both;
+ }
+ 
+ #container #chalsNew #pictureNew #otherPics img{
+	width: 80px;
+	height: 80px;
+	margin: 7px;
+	clear: both;
+ }
+ 
+ /*---------------------------------------------------------------------------------------*/
+ /*Options Menu*/
+ 
+ #container #optionsMenu{
+	width: 960px;
+	margin: 50px auto;
+ }
+ 
+ #container #optionsMenu .optionsSubMenu{
+	width: 300px;
+	float: left;
+	background-color: #ccc;
+	margin: 0 20px 0 0;
+ }
+ 
+ #container #optionsMenu .optionsSubMenu h4{
+	font-style: italic;
+	font-weight: normal;
+	font-size: 13px;
+	padding: 10px;
+ }
+ 
+ #container #optionsMenu .optionsSubMenu img{
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	float: left;
+ }
+ 
+ #container #optionsMenu .optionsSubMenu p{
+	font-size: 10px;
+	font-style: italic;
+	font-weight: normal;
+	padding: 10px;
+ }
+ 
+ /*End of options menu*/
+ /*---------------------------------------------------------------------------------------*/
+ 
+ /* Register page */
+ #content{
+	width: 960px;
+	margin: 0 auto;
+	margin: 100px 0 0 0;
+ }
+ 
+ #content h2{
+	font-size: 16px;
+	font-weight: normal;
+ }
+ 
+ #container form{
+	width: 450px;
+ }
+ 
+ #container form h3{
+	font-style: italic;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 10px 0 0 20px;
+ }
+ 
+ #container form .formLabels{
+	width: 200px;
+	margin: 25px 20px 10px 30px;
+	float: left;
+ }
+ 
+ #container form .formLabels .lab{
+	font-style: italic;
+	font-size: 13px;
+	line-height: 25px;
+	clear: both;
+ }
+ 
+ #container form .formInputs{
+	width: 200px;
+	margin: 25px 0 10px 0;
+	float: right;
+ }
+ 
+ /*---------------------------------------------------------------------------------------*/
+ /*USER DETAILS PAGE*/
+ #content #userInfo{
+	width: 500px;
+	float: left;
+ }
+ 
+ #content #userAvatar{
+	float: right;
+	width: 460px;
+ }
+ 
+ #content #userAvatar img{
+	width: 256px;
+	height: 256px;
+	border: 2px solid #fff;
+ }
+ 
+ #content #userGallery{
+	clear: both;
+	width: 960px;
+	margin: 20px 0 0 0;
+ }
+ 
+ #content #userGallery img{
+	width: 160px;
+	height: 160px;
+	margin: 25px 13px 0 13px;
+	border: 0;
+ }
+ 
+ #content #pageNumeration{
+	float: right;
+	color: #fff;
+ }
+ 
+ /*----------------------------------------------------------------------------------------*/
+ /*START OF USERS PAGE*/
+ #content #altMenu{
+	float: left;
+	width: 320px;
+	border: 2px solid #fff;
+ }
+ 
+ #content #listUsers{
+	float: right;
+	width: 630px;
+	border: 1px solid #fff;
+ }
+ 
+ #content #listUsers .user{
+	padding: 10px;
+	border-bottom: 2px dotted #902;
+ }
+ 
+ #content #listUsers .user img{
+	margin: 15px 0 0 0;
+	width: 150px;
+	height: 150px;
+	float: left;
+ }
+ 
+ #content #listUsers .user .userCitation{
+	font-size: 12px;
+	font-style: italic;
+	margin: 5px 0 0 10px;
+	width: 440px;
+	float: right;
+	text-align: left;
+	
+ }
+ 
+ #content #listUsers .user .minigallery{
+	width: 440px;
+	float: right;
+	position: relative;
+	top: 59px;
+ }
+ 
+ #content #listUsers .user .minigallery img{
+	width: 70px;
+	height: 70px;
+	padding: 1px;
+ }
+ 
+ /*START OF CATEGORIES*/
+ 
+ #content #altMenu{
+	float: left;
+	width: 320px;
+	border: 2px solid #fff;
+ }
+ 
+ #content #listCategories{
+	float: right;
+	width: 630px;
+	border: 1px solid #fff;
+ }
+ 
+ #content #listCategories .Category{
+	padding: 10px;
+	border-bottom: 2px dotted #902;
+ }
+ 
+ #content #listCategories .Category img{
+	margin: 15px 0 0 0;
+	width: 150px;
+	height: 150px;
+	float: left;
+ }
+ 
+ #content #listCategories .Category .CategoryCitation{
+	font-size: 12px;
+	font-style: italic;
+	margin: 5px 0 0 10px;
+	width: 440px;
+	float: right;
+	text-align: left;
+	
+ }
+ 
+ #content #listCategories .Category .minigallery{
+	width: 440px;
+	float: right;
+	position: relative;
+	top: 59px;
+ }
+ 
+ #content #listCategories .Category .minigallery img{
+	width: 70px;
+	height: 70px;
+	padding: 1px;
+ }

@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+	<title>Photo Challenge</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	
+ </head>
+ <body>
+	<!--START OF HEADER-->
+	<div id="header">
+		<div id="headerSub">
+			<!--START OF LOGO-->
+			<img src="img/logo.png" alt="Photo Challenge logo" title="Photo Challenge logo" />
+			<!--END OF LOGO-->
+			
+			<!--START OF USER DETAILS-->
+			<!--<div id="userDet">
+				<span>Добре дошъл,<a href="#">User</a></span>
+				<div id="userDetSub">
+					<img src="#" alt="avatar" title="avatar" />
+					<ul>
+						<li><a href="#">Edit profile</a></li>
+						<li><a href="#">Edit password</a></li>
+						<li><a href="#">Messages</a></li>
+						<li><a href="#">Exit</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>-->
+			<!--END OF USER DETAILS-->
+			
+			<!--START OF MAIN MENU-->
+			<ul id="mainMenu">
+				<li><a href="index.html">НАЧАЛО</a></li>
+				<li><a href="#">ЗА НАС</a></li>
+				<li><a href="#">КАТЕГОРИИ</a></li>
+				<li><a href="#">КОНТАКТИ</a></li>
+				<li><a href="#">ФОРУМ</a></li>
+			</ul>
+			<!--END OF MENU-->
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!--END OF HEADER-->
+	<div id="container">
+		<div id="content">
+			<h2>Настройки на акаунта:</h2>
+			<div id="userInfo">
+				<form action="changeUser.php" method="GET">
+				<div id="persInfo">
+					<h3>Лична информация:</h3>
+					<div class="formLabels">
+						<label class="lab">*Име:</label><br/>
+						<label class="lab">Презиме:</label><br/>
+						<label class="lab">*Фамилия:</label><br/>
+					</div>
+				
+					<div class="formInputs">
+						<input type="text" name="fname" />
+						<input type="text" name="sname" />
+						<input type="text" name="tname" />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div id="accInfo">
+					<h3>Информация за акаунта:</h3>
+					<div class="formLabels">
+						<label class="lab">*Никнейм:</label><br/>
+						<label class="lab">*Парола:</label><br/>
+						<label class="lab">*Повторете паролата:</label><br/>
+						<label class="lab">*Имейл адрес:</label><br/>
+						<label class="lab">*Повторете имейл адреса:</label><br/>
+					</div>
+					
+					<div class="formInputs">
+						<input type="text" name="nickname" />
+						<input type="password" name="pass" />
+						<input type="password" name="chPass" />
+						<input type="text" name="email" />
+						<input type="text" name="chEmail" />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<input type="button" name="submit" value="Обнови!" />
+			</form>
+			</div>
+			<div id="userAvatar">
+				<img src="img/user.png" alt="avatar" title="avatar"  />
+			</div>
+			<div class="clear"></div>
+			<div id="userGallery">
+				<h2>Галерия на user:</h2>
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<img src="img/gall.jpg" />
+				<div id="pageNumeration">
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+				</div>
+			</div>
+		</div>
+	</div>
+ </body>
+ </html>
